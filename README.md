@@ -30,6 +30,7 @@ gdpr.json
 - gdpr_kaggle_1805a_gemini_harness.csv
 - gdpr_kaggle_1805a_maritaca_harness.csv
 - gdpr_kaggle_1805a_ministral_harness.csv
+- gdpr_kaggle_1805a_v_gemini.csv
 
 ## kaggle Q&A dataset
 _GDPR_qa_test_dataset_v2.csv
