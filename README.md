@@ -1,7 +1,7 @@
 This repository has the intention to present the core compoment related to our paper:
 
 1. Class extraction and question expantions, Figure 1, A 1
-- extraction.py
+- [`extraction.py`](./extraction.py)
 
 2. SPARQL query and data retrieval, Figure 1, B 1 and 2
 - graph_query.py
