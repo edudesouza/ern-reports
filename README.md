@@ -1,4 +1,6 @@
-*This repository has the intention to present the core compoment related to our paper*
+## *This repository has the intention to present the core compoment related to our paper*
+
+## Scripts
 
 1. Class extraction and question expantions, Figure 1, A 1
 - [`extraction.py`](./extraction.py)
