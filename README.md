@@ -14,9 +14,9 @@ Rule based KG, each article is full injected in a class called chunck, from wich
 
 ## Vector store
 The GDPR was vectorized using the same structure as the KG, embedding each full article to preserve its deontic coherence.
-| Vector | HNSW | Quantization |
+| Vector | Distance | HNSW | Quantization | On disk | Data type | Multivector |
 |---:|---|---|---|---|---|---|
-| 384 | Default | None |
+| 384 | Not specified | Default | None | No | Default | None |
 
 ## Scripts
 
