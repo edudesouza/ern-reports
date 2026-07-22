@@ -11,6 +11,7 @@ Rule based ontology, this ontologie is focus on define the deontic (permisson,pr
 ## Knowledge graph
 Rule based KG, each article is full injected in a class called chunck, from wich a LLM capture its related classes, based on the ontology and creates a well defined deontic rule, wich is instanciated in a class name Rule.
 - [`kg.ttl`](kg.ttl)
+  
 | RDF Triples | Subjects | Predicates | Rule Classes |
 | ----------: | -------: | ---------: | -----------: |
 |       8,249 |    1,583 |         25 |          277 |
