@@ -1,4 +1,12 @@
-## *This repository has the intention to present the core compoment related to our paper*
+## *This repository has the intention to present the core compoments related to our paper*
+
+## Ontology
+- Rule based ontology, this ontologie is focus on define the deontic (permisson,prohibition,oblication) expression of a text
+_owl_gdpr.ttl
+
+## Knowledge graph
+- Rule based KG, each article is full injected in a class called chunck, from wich a LLM capture its related classes, based on the ontology and creates a well defined deontic rule, wich is instaciated in a class name Rule
+kg.ttl
 
 ## Scripts
 
@@ -17,11 +25,9 @@
 5. Vector query
 - [`run_benchmark_vector_rag.py`](./run_benchmark_vector_rag.py)
 
-## Ontology
-_owl_gdpr.ttl
 
-## Knowledge graph
-kg.ttl
+
+
 
 ## GDPR json normalized
 gdpr.json
