@@ -1,12 +1,12 @@
 ## *This repository has the intention to present the core compoments related to our paper*
 
 ## Ontology
-- Rule based ontology, this ontologie is focus on define the deontic (permisson,prohibition,oblication) expression of a text
-[`_owl_gdpr.ttl`](./_owl_gdpr.ttl)
+Rule based ontology, this ontologie is focus on define the deontic (permisson,prohibition,oblication) expression of a text
+- [`_owl_gdpr.ttl`](./_owl_gdpr.ttl)
 
 ## Knowledge graph
-- Rule based KG, each article is full injected in a class called chunck, from wich a LLM capture its related classes, based on the ontology and creates a well defined deontic rule, wich is instaciated in a class name Rule
-kg.ttl
+Rule based KG, each article is full injected in a class called chunck, from wich a LLM capture its related classes, based on the ontology and creates a well defined deontic rule, wich is instaciated in a class name Rule
+-[`kg.ttl`](kg.ttl)
 
 ## Scripts
 
