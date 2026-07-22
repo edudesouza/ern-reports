@@ -1,20 +1,19 @@
 ## *This repository has the intention to present the core compoments related to our paper*
 
 ## GDPR json normalized
-The ADAPT Centre at Trinity College Dublin has developed a json normalize representation used in our data ingestion
+The ADAPT Centre at Trinity College Dublin has developed a json normalize representation used in our data ingestion.
 - [`gdpr.json`](gdpr.json)
 
 ## Ontology
-Rule based ontology, this ontologie is focus on define the deontic (permisson,prohibition,oblication) expression of a text
+Rule based ontology, this ontologie is focus on define the deontic (permisson,prohibition,oblication) expression of a text.
 - [`_owl_gdpr.ttl`](./_owl_gdpr.ttl)
 
 ## Knowledge graph
-Rule based KG, each article is full injected in a class called chunck, from wich a LLM capture its related classes, based on the ontology and creates a well defined deontic rule, wich is instanciated in a class name Rule
+Rule based KG, each article is full injected in a class called chunck, from wich a LLM capture its related classes, based on the ontology and creates a well defined deontic rule, wich is instanciated in a class name Rule.
+- [`kg.ttl`](kg.ttl)
 | RDF Triples | Subjects | Predicates | Rule Classes |
 | ----------: | -------: | ---------: | -----------: |
 |       8,249 |    1,583 |         25 |          277 |
-
-- [`kg.ttl`](kg.ttl)
 
 ## Vector store
 The GDPR was vectorized using the same structure as the KG, embedding each full article to preserve its deontic coherence.
