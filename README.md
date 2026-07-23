@@ -66,10 +66,10 @@ The GDPR was vectorized using the same structure as the KG, embedding each full 
 | `top_k` | 20 |
 
 ## Result datasets:
-- gdpr_kaggle_1805a_gemini_harness.csv
-- gdpr_kaggle_1805a_maritaca_harness.csv
-- gdpr_kaggle_1805a_ministral_harness.csv
-- gdpr_kaggle_1805a_v_gemini.csv
+- [`gdpr_kaggle_1805a_gemini_harness.csv`](gdpr_kaggle_1805a_gemini_harness.csv)
+- [`gdpr_kaggle_1805a_maritaca_harness.csv`](gdpr_kaggle_1805a_maritaca_harness.csv)
+- [`gdpr_kaggle_1805a_ministral_harness.csv`](gdpr_kaggle_1805a_ministral_harness.csv)
+- [`gdpr_kaggle_1805a_v_gemini.csv`](gdpr_kaggle_1805a_v_gemini.csv)
 
 ## kaggle Q&A dataset
-_GDPR_qa_test_dataset_v2.csv
+- [`GDPR_qa_test_dataset_v2.csv`](_GDPR_qa_test_dataset_v2.csv)
