@@ -1,7 +1,7 @@
 ## *This repository has the intention to present the core compoments related to our paper*
 
 ## GDPR json normalized
-The ADAPT Centre at Trinity College Dublin has developed a json normalize representation used in our data ingestion.
+Json respresentation developed by The ADAPT Centre at Trinity College Dublin.
 - [`gdpr.json`](gdpr.json)
 
 ## Ontology
