@@ -40,24 +40,30 @@ The GDPR was vectorized using the same structure as the KG, embedding each full 
 - [`run_benchmark_vector_rag.py`](./run_benchmark_vector_rag.py)
 
 ## Graph Experiments
-
+| Parameters | Valeu |
+| --- | --- |
+| Query expansion | `gemini-2.5-flash temp: 0` |
+| Models | maritaca (`sabia-4`), google (`gemini-2.5-flash-lite`), Mistral (`ministral`) |
+| Evaluator (DeepEval) | `gpt-oss:120b-cloud temp:0` |
+| Metrics | SAF, SIM, NLI, AnswerRelevancy, Faithfulness |
+| `threshold` | 0.70 |
+| `max_chars` | 1500 |
+| `top_k` | 50 |
 
 ## Vector Experiments
-| Parâmetro | Valor |
+| Parameters | Values |
 | --- | --- |
 | Retriever | Hybrid (Dense + Sparse) |
 | Dense model | `paraphrase-multilingual-MiniLM-L12-v2` |
 | Sparse model | `Qdrant/bm25` |
 | Fusion | RRF (Reciprocal Rank Fusion) |
-| Retrieval size | 10 (default) / 20 (complexidade alta) |
-| Query expansion | `gemini-2.5-flash` |
-| LLM model | `gemini 2.5, Ministral, Sabiá 4` |
-| Evaluator (DeepEval) | `gpt-oss:120b-cloud` |
-| `temperature` (avaliador) | 0 |
-| Métricas | SAF, SIM, NLI, AnswerRelevancy, Faithfulness |
+| Query expansion | `gemini-2.5-flash temp: 0` |
+| Models | maritaca (`sabia-4`), google (`gemini-2.5-flash-lite`), Mistral (`ministral`) |
+| Evaluator (DeepEval) | `gpt-oss:120b-cloud temp: 0` |
+| Metrics | SAF, SIM, NLI, AnswerRelevancy, Faithfulness |
 | `threshold` | 0.70 |
 | `max_chars` | 1500 |
-| `top_k` (contexto) | 20 |
+| `top_k` | 20 |
 
 ## Result datasets:
 - gdpr_kaggle_1805a_gemini_harness.csv
