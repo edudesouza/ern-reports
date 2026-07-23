@@ -18,9 +18,9 @@ Rule based KG, each article is full injected in a class called chunck, from wich
 
 ## Vector store
 The GDPR was vectorized using the same structure as the KG, embedding each full article to preserve its deontic coherence.
-| Vector |   HNSW | Quantization | 
-|---:|---|---|
-| 384 | Default | None | 
+| Vector | Distance | HNSW | Quantization | On disk | Data type | Multivector |
+| -----: | -------- | ---- | ------------ | ------- | --------- | ----------- |
+| 384 | Cosine | Default | None | No | Dense: float embeddings (384 dims), Sparse: BM25 indices/weights | Yes (hybrid dense + sparse) |
 
 ## Scripts
 
@@ -38,6 +38,12 @@ The GDPR was vectorized using the same structure as the KG, embedding each full 
 
 5. Vector query
 - [`run_benchmark_vector_rag.py`](./run_benchmark_vector_rag.py)
+
+## Experiments
+Response in Graph Retrieval
+Model | Temperature | Few shot | top-k | top-p
+
+Vector Retrieval
 
 ## Result datasets:
 - gdpr_kaggle_1805a_gemini_harness.csv
