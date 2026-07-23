@@ -39,11 +39,25 @@ The GDPR was vectorized using the same structure as the KG, embedding each full 
 5. Vector query
 - [`run_benchmark_vector_rag.py`](./run_benchmark_vector_rag.py)
 
-## Experiments
-Response in Graph Retrieval
-Model | Temperature | Few shot | top-k | top-p
+## Graph Experiments
 
-Vector Retrieval
+
+## Vector Experiments
+| Parâmetro | Valor |
+| --- | --- |
+| Retriever | Hybrid (Dense + Sparse) |
+| Dense model | `paraphrase-multilingual-MiniLM-L12-v2` |
+| Sparse model | `Qdrant/bm25` |
+| Fusion | RRF (Reciprocal Rank Fusion) |
+| Retrieval size | 10 (default) / 20 (complexidade alta) |
+| Query expansion | `gemini-2.5-flash` |
+| LLM model | `gemini 2.5, Ministral, Sabiá 4` |
+| Evaluator (DeepEval) | `gpt-oss:120b-cloud` |
+| `temperature` (avaliador) | 0 |
+| Métricas | SAF, SIM, NLI, AnswerRelevancy, Faithfulness |
+| `threshold` | 0.70 |
+| `max_chars` | 1500 |
+| `top_k` (contexto) | 20 |
 
 ## Result datasets:
 - gdpr_kaggle_1805a_gemini_harness.csv
